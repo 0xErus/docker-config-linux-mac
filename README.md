@@ -22,5 +22,5 @@ __My docker configuration__
   - run this command to build your image using the docker file included in this repository ```docker build -t <image-name> .```
 
 #### Create container based off of previously created image
-  - create your container using this command ```docker create -i -t <image-name> --name <container-name> -v <host_dir>:<container-dir> <image-name>``` this command will output a container id
+  - create your container using this command ```docker create -i -t --name <container-name> -v <host_dir>:<container-dir> <image-name>``` this command will output a container id
   - you can now start your container by running the following command ```docker start -i <container-id>```
