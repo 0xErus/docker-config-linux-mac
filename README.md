@@ -1,5 +1,5 @@
-# docker-config-linux-mac
-my docker configuration
+# docker-configuration
+My docker configuration
 
 ## Install Docker for Mac
   - <https://docs.docker.com/docker-for-mac/>
