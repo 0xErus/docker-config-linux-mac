@@ -13,7 +13,7 @@ __My docker configuration__
 #### Downloading Desired Base Image
   - Head to <https://hub.docker.com/search?q=&type=image> and find your desired docker container image
     - note the image bust be ubuntu amd64 if you want to follow along this setup
-  - Download the image using the command: ```docker pull [container]:latest --platform [architecture]```
+  - Download the image using the command: ```docker pull <container>:<latest> --platform <architecture>```
 
 #### Creating custom image based on docker file & base image
   - clone this repo by running ```git clone https://github.com/0xErus/docker-configuration.git```
