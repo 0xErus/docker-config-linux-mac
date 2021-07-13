@@ -10,7 +10,7 @@ My docker configuration
   - Follow to *advanced* -> *File Sharing*
   - Click on the *+* symbol to add a shared directory between your host and the container
   
-#### Installing Desired Container
+#### Installing Desired Base Image
   - Head to <https://hub.docker.com/search?q=&type=image> and find your desired docker container image
-  - Install the container using the command: **docker pull [container]:latest --platform [architecture]**
-  -  
+  - Download the image using the command: ```docker pull [container]:latest --platform [architecture]```
+  - clone this repository ```git clone 
